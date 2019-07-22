@@ -1,0 +1,84 @@
+span[title="Kanban board"] {visibility:hidden;}
+
+span[title="Kanban board"]:before {
+visibility: visible;
+content: "KTP agile board";
+}
+
+li[data-column-id="15"] {
+    visibility: hidden;
+}
+
+li[data-id="15"] {
+    visibility: hidden;
+}
+
+li[data-column-id="14"] {
+    background: White !important;
+}
+
+li[data-id="14"] {
+    visibility: hidden;
+}
+
+li[data-column-id="13"] {
+    background: White !important;
+}
+
+li[data-id="13"] {
+    visibility: hidden;
+}
+
+li[data-column-id="12"] {
+	
+}
+
+
+li[data-id="12"] {
+   
+}
+
+
+h2[data-tooltip="Backlog"]{visibility:hidden;}
+
+h2[data-tooltip="Backlog"]:before {
+visibility: visible;
+content: "Research:";
+/*position: absolute; 
+left: 150px; */
+}
+
+h2[data-tooltip="Backlog"] + div {visibility:hidden;}
+
+
+h2[data-tooltip="Selected for Development"]{visibility:hidden;}
+
+h2[data-tooltip="Selected for Development"]:before {
+visibility: visible;
+content: "Development list:";
+/*position: absolute; 
+left: 125px; */
+}
+
+h2[data-tooltip="Selected for Development"] + div {visibility:hidden;}
+
+
+h2[data-tooltip="In Progress"]{visibility:hidden;}
+
+h2[data-tooltip="In Progress"]:before {
+visibility: visible;
+content: "Development:";
+/*position: absolute; 
+left: 125px; */
+}
+
+h2[data-tooltip="In Progress"] + div {visibility:hidden;}
+
+.adg3 .ghx-issue, .adg3 .ghx-issue.ghx-selected{
+box-shadow: 0px 1px 2px 0px rgba(9, 30, 66, 0.25);
+border: 1px solid grey;    
+}
+
+section.ghx-stat-fields {visibility:hidden;}
+
+
